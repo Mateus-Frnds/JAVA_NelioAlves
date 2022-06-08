@@ -15,8 +15,8 @@ public class Exercicio1 {
         double price3 = 53.234567;
 
         System.out.println("Products:");
-        System.out.printf("Computer, which price is $ %.2f%n", price1);
-        System.out.printf("Office desk, which price is $ %.2f%n", price2);
+        System.out.printf(product1 + ", which price is $ %.2f%n", price1);
+        System.out.printf(product2 + ", which price is $ %.2f%n", price2);
         System.out.println("");
 
         System.out.println("Record: " + age + " years old, code " + code + " and gender " + gender);
